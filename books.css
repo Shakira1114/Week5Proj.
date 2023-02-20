@@ -1,0 +1,206 @@
+*{
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    height: 30px;
+    
+    top: 400px;
+    background:  rgba(217, 217, 217, 1);
+}
+
+.container img{
+    padding: 20px;
+    position: relative;
+    margin-top: -40px;
+
+ 
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-flex;
+    margin-bottom: 60em;
+    margin-top: -20px;
+
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+  
+    margin-left: 40px;
+
+}
+
+
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed;
+    padding-top: 40px;
+    margin: 30px;
+   
+}
+
+.sidenav a{
+    color: black;
+    display: block;
+  line-height: 32px;
+  text-decoration: none;
+    
+}
+
+form{
+    
+    display: inline-flex;
+   float: right;
+   text-align: right;
+   margin-left: 50%;
+   margin-bottom: 50%;
+   position: absolute;
+   border-radius: 6%;
+}
+
+legend{
+    border-radius: 4em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.rightside img{
+    position: absolute;
+    left: 240px;
+    top: 160px;
+    width: 400;
+    height: 600;
+
+}
+
+.checkout img{
+    position: absolute;
+    left: 340px;
+    top: 790px;
+}
+
+.checkout p{
+    position: absolute;
+    left: 410px;
+    top: 795px;
+    color: white;
+    font-size: 20;
+}
+
+.bookinfo{
+height: 100%; 
+width: 160px; 
+position: fixed;
+padding-top: 40px;
+margin: 30px;
+left: 680px;
+top: 80px;
+
+}
+
+.bookinfo a{
+    color: black;
+    display: block;
+  line-height: 32px;
+  text-decoration: none;
+
+}
+
+.sideinfo{
+    height: 100%; 
+width: 160px; 
+position: fixed;
+padding-top: 40px;
+margin: 30px;
+left: 800px;
+top: 80px;
+}
+
+.sideinfo a{
+    color: black;
+    display: block;
+  line-height: 32px;
+  text-decoration: none;
+
+}
+
+.summary h2{
+    height: 100%; 
+    width: 160px; 
+    position: fixed;
+    padding-top: 40px;
+    margin: 30px;
+    left: 680px;
+    top: 300px;
+    font-size: 20;
+}
+
+.summary p {
+    position: absolute;
+    width: 700px;
+    height: 215px;
+    left: 700px;
+    top: 400px;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 31px;
+    
+    color: #000000;
+    
+}
+
+.review h2{
+    height: 100%; 
+    width: 160px; 
+    position: fixed;
+    padding-top: 40px;
+    margin: 30px;
+    left: 680px;
+    top: 570px;
+    font-size: 20;
+}
+
+.review p {
+    position: absolute;
+    width: 700px;
+    height: 215px;
+    left: 700px;
+    top: 700px;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 31px;
+    
+    color: #000000;
+    
+}
+
+.body2 p{
+    position: absolute;
+    width: 700px;
+    height: 215px;
+    left: 700px;
+    top: 840px;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 31px;
+    
+    color: #000000;
+}
